@@ -11,11 +11,11 @@ int main() {
     // This function uses a while statement to print numbers from
     // 1000 to 2000, 5 numbers at a time
 
-    int i = 999;
+    int i = 1000;
 
     // while loop from 1 to 5
-    while (i < 1999) {
-        std::cout << ++i << " " << ++i << " " << ++i << " "
+    while (i < 2000) {
+        std::cout << i << " " << ++i << " " << ++i << " "
         << ++i << " " << ++i << std::endl;
     } std::cout << "2000";
 }
